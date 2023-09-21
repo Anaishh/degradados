@@ -19,6 +19,14 @@ div {
     display:flex;
     justify-content: space-around;
 }
+
+h1, h2 {
+    background-image: linear-gradient(45deg, cyan, black);
+    background-clip: text;/*de momento esa linea no sirve en Chrome, usa la de abajo*/
+   -webkit-background-clip: text;
+    color: transparent;
+}
+
 #div1 {
     width: 20%;  
     height: 500px;
